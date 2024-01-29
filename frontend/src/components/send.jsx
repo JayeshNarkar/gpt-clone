@@ -57,8 +57,8 @@ export function SendPrompt() {
     const config = {
       headers: {
         "Content-Type": "application/json",
-        withCredentials: true,
       },
+      withCredentials: true,
     };
     const backendUrl = "/api/gpt";
     axios
